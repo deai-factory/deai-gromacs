@@ -11,4 +11,4 @@ lilypad run --target 0x16f6400D30F1d2ACD63Bb27202725680db93e63c github.com/deai-
 
 -i Query="echo 15 | gmx pdb2gmx -f input/1AKI.pdb -o outputs/1AKI_processed.gro -water spc" => Running the Gromacs command gmx. 
 
-The InputsCID Folder will be mounted to the GROMACS/GROMACS as input and gmx is reading the file from the input volume. R%eading the file 1AKI.pdb. 
+The InputsCID Folder will be mounted to the GROMACS/GROMACS as input and gmx is reading the file from the input volume. Reading the file 1AKI.pdb. 
