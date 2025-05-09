@@ -1,58 +1,31 @@
 {
-    "machine": {
-        "gpu": 0,
-        "cpu": 1000,
-        "ram": 100
-    },
-    "job": {
-        "APIVersion": "V1beta1",
-        "Metadata": {
-            "CreatedAt": "0001-01-01T00:00:00Z",
-            "Requester": {}
-        },
-        "Spec": {
-            "Engine": "Docker",
-            "Verifier": "Noop"
-            },
-            "Docker": {
-                "Image": "gromacs/gromacs",
-                "Entrypoint": [
-                    "/bin/bash",
-                    "-c",
-                    {{.Query}}
-                ],
-            },
-            "Language": {
-                "JobContext": {}
-            },
-            "Wasm": {
-                "EntryModule": {}
-            },
-            "Resources": {
-                "GPU": "1"
-            },
-            "Network": {
-                "Type": "None"
-            },
-            "Timeout": 3600,
-            "inputs": [
-                {
-                    "StorageSource": "IPFS",
-                    "Name": "inputs",
-                    "CID": {{.InputsCID}},
-                    "path": "/inputs"
-                }
-            ],
-            "outputs": [
-                {
-                    "StorageSource": "IPFS",
-                    "Name": "outputs",
-                    "path": "/outputs"
-                }
-            ],
-            "Deal": {
-                "Concurrency": 1
-            },
-        },
+  "machine": {
+    "gpu": 0,
+    "cpu": 1000,
+    "ram": 100
+  },
+  "job": {
+    "APIVersion": "V1beta1",
+    "Spec": {
+      "Deal": {
+        "Concurrency": 1
+      },
+      "Docker": {
+        "Entrypoint": [],
+        "EnvironmentVariables": [],
+        "Image": "gromacs/gromacs"
+      },
+      "Engine": "Docker",
+      "Network": {
+        "Type": "None"
+      },
+      "PublisherSpec": {
+        "Type": "IPFS"
+      },
+      "Outputs": [{ "Name": "outputs", "Path": "/outputs" }],
+      "Resources": { "GPU": "0", "CPU": "8", "Memory": "16Gb" },
+      "Timeout": 1800,
+      "Verifier": "Noop"
     }
+  }
 }
