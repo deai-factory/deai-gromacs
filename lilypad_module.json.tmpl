@@ -11,7 +11,9 @@
         "Concurrency": 1
       },
       "Docker": {
-        "Entrypoint": [],
+        "Entrypoint": [ "/bin/bash",
+                    "-c",
+                    {{.Query}}],
         "EnvironmentVariables": [],
         "Image": "gromacs/gromacs"
       },
