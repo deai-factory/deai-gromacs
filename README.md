@@ -7,7 +7,7 @@ Datasets can be found here https://www.rcsb.org, In this example we use RCSB PDB
 
 ## Uploading the datasets to IPFS​
 
-The simplest way to upload the data to IPFS, ou can upload your dataset to IPFS using IPFS CLI:
+The simplest way to upload the data to IPFS, you can upload your dataset to IPFS using IPFS CLI:
 ### ipfs add -r input/
 
 added QmTCCqPzX3qSJHuMeSma9uCqUnriZ5eJX7MnxebxydL89f input/1AKI.pdb
