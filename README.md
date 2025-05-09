@@ -1,9 +1,13 @@
 # deai-gromacs
 GROMACS is a package for high-performance molecular dynamics and output analysis. Molecular dynamics is a computer simulation method for analyzing the physical movements of atoms and molecules.
 
-Downloading datasets​
+# Downloading datasets​
 
-Datasets can be found here https://www.rcsb.org, In this example we use RCSB PDB - 1AKI dataset. After downloading, place it in a folder called “input”
+Datasets can be found here https://www.rcsb.org, In this example we use RCSB PDB - 1AKI dataset. After downloading, place it in a local folder called “input”
+
+## Uploading the datasets to IPFS​
+
+The simplest way to upload the data to IPFS is to use a third-party service to "pin" data to the IPFS network, to ensure that the data exists and is available. 
 
 Demo version
 
