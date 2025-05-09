@@ -1,4 +1,9 @@
 # deai-gromacs
+GROMACS is a package for high-performance molecular dynamics and output analysis. Molecular dynamics is a computer simulation method for analyzing the physical movements of atoms and molecules.
+
+Downloading datasets​
+
+Datasets can be found here https://www.rcsb.org, In this example we use RCSB PDB - 1AKI dataset. After downloading, place it in a folder called “input”
 
 Demo version
 
