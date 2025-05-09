@@ -14,7 +14,7 @@ added QmTCCqPzX3qSJHuMeSma9uCqUnriZ5eJX7MnxebxydL89f input/1AKI.pdb
 added QmeeEB1YMrG6K8z43VdsdoYmQV46gAPQCHotZs9pwusCm9 input
  113.59 KiB / 113.59 KiB [=================================] 100.00%
 
- Use this entry QmeeEB1YMrG6K8z43VdsdoYmQV46gAPQCHotZs9pwusCm9, use your output of IPFS add!!
+ Use this entry QmeeEB1YMrG6K8z43VdsdoYmQV46gAPQCHotZs9pwusCm9, use your output from IPFS add!!
 
 ## GROMACS Docker Image
 
